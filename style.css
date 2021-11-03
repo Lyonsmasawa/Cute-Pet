@@ -1,0 +1,96 @@
+.header {
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__nav {
+  flex-grow: 1;
+
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.nav__item {
+  padding: 0 30px;
+  list-style: none;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.main {
+  background-color: rgb(247, 240, 240);
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.heading-2 {
+  font-size: 40px;
+  letter-spacing: 5px;
+}
+
+.heading-3 {
+  font-size: 28px;
+  letter-spacing: 2px;
+}
+
+.pets {
+  padding: 10px 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  column-gap: 20px;
+}
+
+.pet {
+  width: 350px;
+  border-radius: 30px;
+  margin-bottom: 50px;
+  background-color: #fff;
+  text-align: center;
+  padding: 10px;
+  box-shadow: 0 4px 7px 0 rgb(0, 0, 0, 0.6);
+}
+
+.pet__img {
+  background-image: url("img/dogBG.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 350px;
+  border-radius: 5px;
+}
+
+.footer {
+  color: rgba(255, 255, 255, 0.986);
+  background-color: #1e3821f3;
+
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 30px 20px;
+
+  position: relative;
+}
+
+.overlay img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0.3;
+  height: 100%;
+}
+
+.footer__nav * {
+  margin-bottom: 10px;
+}
+
+.input__email {
+  padding: 5px 10px;
+  font-style: italic;
+  font-size: smaller;
+}
